@@ -1,0 +1,21 @@
+material vrc/cut_grass
+{
+  receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.8 1.0 0.8 1.0
+			diffuse 0.8 1.0 0.8 1.0
+			specular 0.1 0.1 0.1 1.0 12.5
+
+			texture_unit
+			{
+				texture cut_grass.jpg
+				scale 0.1666667 0.1
+				filtering anistropic
+		max_anisotropy 16
+			}
+		}
+	}
+}

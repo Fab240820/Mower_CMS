@@ -1,0 +1,7 @@
+<launch>
+
+ <include file="$(find mapping)/launch/mapping_simulation.launch">
+
+ </include>
+ 
+</launch>
